@@ -1,0 +1,62 @@
+{
+  "parsing": {
+    "custom": {
+      "defaultDefinitions": [
+        [
+          "custom text",
+          "custom number"
+        ],
+        [
+          "custom long text"
+        ]
+      ],
+      "specificDefinitions": {
+        "2": [
+          [
+            "custom number",
+            "custom text"
+          ],
+          [
+            "custom text",
+            "custom number"
+          ]
+        ],
+        "3": [
+          [
+            "UPC",
+            "CR",
+            "part number",
+            "CR",
+            "serial number",
+            "CR",
+            "ICCID",
+            "CR"
+          ],
+          [
+            "UPC",
+            "CR"
+          ]
+        ]
+      }
+    },
+    "gs1": {
+      "fnc1": 29
+    }
+  },
+  "prefixSuffix": {
+    "defaultPrefix": "",
+    "defaultSuffix": "",
+    "custom": {
+      "part number": {
+        "prefix": "partNumberPrefix",
+        "suffix": "partNumberSuffix"
+      }
+    },
+    "gs1": {
+      "01": {
+        "prefix": "01Gs1Prefix",
+        "suffix": "01GS1Suffix"
+      }
+    }
+  }
+}

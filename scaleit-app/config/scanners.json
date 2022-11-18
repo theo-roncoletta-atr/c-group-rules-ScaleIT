@@ -1,0 +1,19 @@
+[
+  {
+    "idScanner": 3,
+    "location": "room 318",
+    "scannerType": "DS8178",
+    "options": {
+      "associatedParser": "CUSTOM",
+      "prefix": "",
+      "suffix": "",
+      "connection": {
+        "portName": "/dev/ttyACM0",
+        "baudRate": 115200,
+        "dataBits": 8,
+        "stopBits": "STOP_BITS_1",
+        "parity": "ODD"
+      }
+    }
+  }
+]

@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  test-app:
+    image: scaleit/test-app:local
+
+    container_name: test-app
+    restart: unless-stopped
+    device_cgroup_rules:
+      - 'c 166:* rw'

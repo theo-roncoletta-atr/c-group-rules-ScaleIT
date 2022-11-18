@@ -1,0 +1,43 @@
+{
+  "custom number": {
+    "name": "custom number",
+    "dataType": "NUMERIC_WHOLE",
+    "length": 5
+  },
+  "custom text": {
+    "name": "custom text",
+    "dataType": "TEXT",
+    "length": 5
+  },
+  "custom long text": {
+    "name": "custom long text",
+    "dataType": "TEXT",
+    "length": 10
+  },
+  "CR": {
+    "name": "CR",
+    "dataType": "TEXT",
+    "length": 1,
+    "ignored": true
+  },
+  "UPC": {
+    "name": "UPC",
+    "dataType": "TEXT",
+    "length": 12
+  },
+  "part number": {
+    "name": "part number",
+    "dataType": "TEXT",
+    "length": 9
+  },
+  "serial number": {
+    "name": "serial number",
+    "dataType": "TEXT",
+    "length": 12
+  },
+  "ICCID": {
+    "name": "ICCID",
+    "dataType": "TEXT",
+    "length": 15
+  }
+}
